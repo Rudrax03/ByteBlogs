@@ -73,4 +73,5 @@ Dark Mode
 - [Next.js](https://nextjs.org)
 - [Tailwind CSS](https://tailwindcss.com)
 
+
 > ByteBlogs — Clean, fast, and local-first blogging.
