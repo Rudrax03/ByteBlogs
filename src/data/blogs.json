@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Next.js",
+    "summary": "A simple guide to building apps with Next.js.",
+    "content": "Next.js is a powerful React framework that streamlines modern web development by offering built-in features like routing, server-side rendering, and static site generation. It eliminates the need for third-party libraries and custom configuration, making it ideal for developers looking to build scalable, high-performance websites with minimal setup.\n\nWhen you create a new Next.js app using the built-in CLI, you get a well-structured project that supports both frontend and backend development. You can create new routes just by adding files in the pages directory, and use built-in APIs for server-side logic without leaving the framework. This simplicity empowers teams to focus more on building user experiences rather than configuring tools.\n\nNext.js also excels in SEO and performance. Its automatic code splitting, image optimization, and hybrid rendering options help you deliver fast, accessible web pages. Whether you’re building a blog, an e-commerce site, or a dashboard, Next.js offers the flexibility and power to make development smoother and more efficient.",
+    "date": "2025-06-21",
+    "image": "/blog-images/next.png",
+    "category": "Tech"
+  },
+  {
+    "id": 2,
+    "title": "React vs Next.js",
+    "summary": "Comparison between React and Next.js frameworks.",
+    "content": "React and Next.js are two of the most popular tools in frontend development today, but they serve slightly different purposes. React is a JavaScript library for building user interfaces using reusable components. It gives you complete control over how you manage routing, state, and side effects—but it leaves these responsibilities to you.\n\nNext.js, by contrast, is a full-fledged framework built on top of React. It offers server-side rendering (SSR), static site generation (SSG), and a file-based routing system out of the box. With these features, developers can quickly build fast, scalable applications without having to set up extra tools like Webpack or Babel manually.\n\nIf you're building a simple single-page application (SPA), React may be sufficient. But for more robust, SEO-focused, or performance-optimized applications, Next.js is often the better choice. The key takeaway is that Next.js enhances React by abstracting away boilerplate and providing smart defaults for modern web development.",
+    "date": "2025-06-22",
+    "image": "/blog-images/nextvsreact.png",
+    "category": "Tech"
+  },
+  {
+    "id": 3,
+    "title": "Why TypeScript is Taking Over JavaScript Projects",
+    "summary": "Discover how TypeScript improves large-scale JavaScript development.",
+    "content": "TypeScript, a superset of JavaScript that adds static typing, is becoming the standard in large-scale web and backend development. One of the biggest advantages it brings is improved developer productivity. TypeScript provides type safety and intelligent code completion, helping teams reduce runtime bugs and improve code clarity.\n\nIn large codebases, TypeScript acts like self-updating documentation. Developers can instantly understand what a function expects and returns, which is especially useful in collaborative environments. With features like interfaces, enums, and advanced type inference, it enables more structured and maintainable code.\n\nMoreover, TypeScript integrates seamlessly into existing JavaScript projects, making it easy to migrate incrementally. Tools like VSCode offer rich editor support, making TypeScript a joy to work with. As teams increasingly prioritize reliability and long-term maintainability, TypeScript's adoption is expected to grow even more in the coming years.",
+    "date": "2025-06-23",
+    "image": "/blog-images/typescript.png",
+    "category": "Tech"
+  },
+  {
+    "id": 4,
+    "title": "What is Generative AI and Why Does it Matter?",
+    "summary": "An introduction to generative AI and its real-world applications.",
+    "content": "Generative AI represents a transformative leap in how machines can understand and create content. Unlike traditional models that focus on classification or prediction, generative models like GPT, DALL·E, and Stable Diffusion can generate entirely new data—text, images, audio, and even code—based on training data. This unlocks creative possibilities that were once considered uniquely human.\n\nThese models are being used to write essays, generate digital artwork, compose music, and simulate human-like conversation. Businesses are adopting them for content marketing, product design, and customer service automation. In education, they are helping students learn languages and write essays. In healthcare, they assist in drafting clinical documentation and medical reports.\n\nAs generative AI continues to evolve, it raises important questions about authorship, intellectual property, and ethical use. However, its potential to accelerate productivity and innovation is undeniable. The key challenge for the future lies in using this technology responsibly and thoughtfully.",
+    "date": "2025-06-20",
+    "image": "/blog-images/generative-ai.png",
+    "category": "AI"
+  },
+  {
+    "id": 5,
+    "title": "Understanding Prompt Engineering",
+    "summary": "Learn how to talk to AI models effectively with prompt design.",
+    "content": "Prompt engineering is the process of crafting precise and structured inputs to get high-quality responses from AI models like ChatGPT or image generators. While these models are powerful, their outputs depend heavily on how questions or tasks are framed. The more clearly you define the context, format, and goals in your prompt, the better the result.\n\nFor example, asking 'Summarize this article in 3 bullet points with a formal tone' is far more effective than just 'Summarize this article.' In more complex tasks, prompts may involve multi-step instructions, constraints, and even few-shot examples to guide the model.\n\nAs AI systems become more embedded in workflows—especially in writing, design, coding, and research—prompt engineering is emerging as a critical new skill. It bridges the gap between human intent and machine execution, helping users unlock the full power of generative AI.",
+    "date": "2025-06-18",
+    "image": "/blog-images/prompt.png",
+    "category": "AI"
+  },
+  {
+    "id": 6,
+    "title": "AI in Everyday Apps",
+    "summary": "How artificial intelligence is quietly powering the apps we use daily.",
+    "content": "Artificial intelligence has become a silent partner in most of the digital tools we use every day. From personalized recommendations on platforms like Netflix and Amazon to smart replies in Gmail and autocorrect in messaging apps, AI enhances convenience, relevance, and usability in subtle ways.\n\nThese systems often rely on machine learning models trained on massive datasets to recognize patterns and make predictions. Voice assistants like Siri and Alexa use AI for natural language processing, while apps like Google Photos use it to organize and tag images. Even rideshare apps use AI to optimize routes and reduce wait times.\n\nFor developers, integrating AI has never been easier thanks to open-source tools and cloud-based services like TensorFlow, OpenAI API, and Hugging Face. As a result, AI is becoming a foundational layer for everything from productivity apps to smart home devices, quietly transforming our everyday digital experiences.",
+    "date": "2025-06-15",
+    "image": "/blog-images/ai-apps.png",
+    "category": "AI"
+  },
+  {
+    "id": 7,
+    "title": "Design Systems: Why Your Team Needs One",
+    "summary": "Explore how a design system brings consistency and speed to your UI workflow.",
+    "content": "A design system is more than just a style guide—it's a complete toolkit of components, patterns, and guidelines that ensure consistency across a digital product’s interface. For product teams working on large or evolving applications, a design system provides a shared language between designers and developers, reducing miscommunication and rework.\n\nDesign systems include rules for layout, typography, color schemes, UI components, and even accessibility considerations. By standardizing these elements, teams can scale their design efforts and maintain quality across multiple platforms and updates.\n\nLeading companies like Google (Material Design) and IBM (Carbon Design System) have invested heavily in design systems to speed up development and maintain brand identity. Implementing your own system—even a simple one—can improve collaboration, reduce time to market, and create a better, more consistent user experience.",
+    "date": "2025-06-17",
+    "image": "/blog-images/design-system.png",
+    "category": "Design"
+  },
+  {
+    "id": 8,
+    "title": "The Power of Minimalist UI Design",
+    "summary": "Learn how minimalism creates cleaner, more usable interfaces.",
+    "content": "Minimalist UI design focuses on clarity, simplicity, and user efficiency. By removing unnecessary elements and emphasizing content, it allows users to interact with interfaces more intuitively. This design approach uses ample whitespace, clear typography, limited color palettes, and meaningful visuals to create focused experiences.\n\nMinimalism also benefits performance. Fewer visual elements mean faster load times, reduced clutter, and easier accessibility. It is especially effective in mobile interfaces, where screen space is limited, and every pixel matters. Brands like Apple and Airbnb have successfully used minimalism to convey elegance, reliability, and ease of use.\n\nHowever, minimalism should not come at the cost of usability. Designers must balance form and function to ensure that essential features are discoverable and accessible. When done right, minimalist UI design leads to aesthetically pleasing products that are also highly functional and user-friendly.",
+    "date": "2025-06-16",
+    "image": "/blog-images/minimalist.png",
+    "category": "Design"
+  },
+  {
+    "id": 9,
+    "title": "Color Theory for UI Designers",
+    "summary": "Master the basics of color use in digital interfaces.",
+    "content": "Color plays a crucial role in user interface (UI) design, influencing how users perceive and interact with digital products. A well-thought-out color scheme can enhance usability, establish brand identity, and guide users' attention effectively. Color theory involves understanding the relationships between colors and how they work together in a design.\n\nDesigners use primary, secondary, and tertiary colors along with principles like contrast, saturation, and hue to create visual harmony. Complementary and analogous color schemes are often used to build balance and aesthetic appeal. Moreover, color has psychological effects—blues often evoke trust, while reds can signal urgency or excitement.\n\nAccessibility is another important consideration. Using high contrast ratios and avoiding problematic color combinations ensures that your interface is usable for people with visual impairments. Mastery of color theory empowers designers to build visually compelling and inclusive digital experiences.",
+    "date": "2025-06-14",
+    "image": "/blog-images/color-theory.png",
+    "category": "Design"
+  }
+]
